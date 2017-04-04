@@ -1,0 +1,160 @@
+body{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	text-align:center;
+	font-size:3em;
+	color:#ffc300;
+}
+.nav{
+	background-color:blue;
+	padding: 5px;
+	width: 100%;
+	height: 50px;
+	text-align: right;
+	text-decoration:none;
+	font-size: 1.2em;
+}
+
+.nav h2{
+	float: left;
+	color:#ffffff;
+	margin-top: 8px;
+	font-size:1.5em;
+}
+
+.nav li{
+	text-align: right;
+	display: inline;
+	color: #ffffff;
+	padding: 5px;
+	padding-left: 5px;
+}
+
+.nav a{
+	color: #ffffff;
+	text-decoration:none;
+}
+.intro img{
+	margin-top:50px;
+	border-radius:50%;
+	width:20%;
+	box-shadow: 2px 4px 8px 2px rgba(50, 51, 94, 0.8), 3px 6px 20px 3px rgba(119, 117, 113, 0.50);
+	margin-left:33.5%;
+}
+
+.intro h1{
+	font-size: 3em;
+	color: #ff0022;
+	text-align: center;
+	text-shadow: 2px 1px 4px #666666;
+}
+
+.intro h3{
+	font-size:1.5em;
+	color:#777571;
+	text-align:center;
+}
+
+.about {
+	background-color:#e0e0e0;
+	padding:10px 0px 50px 0px;
+	margin:auto;
+	
+}
+
+.about h3{
+	text-align:center;
+	font-size:3em;
+}
+
+.about p{
+	text-align:center;
+	font-size:1.2em;
+	color:#25484f;
+}
+
+.myskills {
+	background-color:#dbfffc;
+	padding:10px 0px 50px 0px;
+}
+
+.myskills h1{
+	margin:auto;
+	margin-top: 20px;
+	padding:10px 0px 50px 0px;
+	padding-bottom:15px;
+}
+
+.myskills li{
+	font-size:1.3em;
+	margin-left:20%;
+}
+
+.soc {
+	background-color:#fcd8ff;
+	padding:10px 0px 50px 0px;
+	margin:auto;
+}
+
+.soc h3{
+	margin:auto;
+	font-size:2em;
+	margin-top:15px;
+	padding:10px 0px 50px 0px;
+}
+
+.soc a{
+	padding:25px;
+	color:#777571;
+	text-decoration:none;
+	font-size:1.5em;
+}
+
+a:hover {
+	color:#0cce6a;
+}
+
+.myq {
+	margin:auto;
+	padding-bottom:50px;
+	width:100%;
+	padding:10px 0px 50px 0px;
+}
+
+#tab {
+	margin:auto;
+	background-color:#fff7d3;
+	color:#686868;
+	text-align:center;
+}
+
+#tab td{
+	padding: 10px 10px;
+}
+
+.foot {
+	background-color:#d8fca9;
+	padding:10px 0px 50px 0px;
+	margin:auto;
+}
+
+.foot h4{
+	font-size:2.5em;
+	padding-bottom:10px;
+	text-decoration:none;
+}
+
+.foot h1{
+	font-size:3.5em;
+	font-family:Lucida Calligraphy;
+	padding-bottom:10px;
+}
+
+.foot p{
+	font-size:2.3em;
+	font-family:Monotype Corsiva;
+}
