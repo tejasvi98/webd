@@ -1,4 +1,4 @@
-#bodycss
+/* body css */
 body{
 	font-family: sans-serif;
 	margin: 0px;
@@ -11,7 +11,7 @@ h1 {
 	font-size:3em;
 	color:#ffc300;
 }
-#nav css
+/* nav css */
 .nav{
 	position:fixed;
 	top:0px;
