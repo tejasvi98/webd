@@ -11,8 +11,8 @@
 		<script>
 			function myfunction()
 			{
-				var person=prompt("enter your name", "gupta");
-				var person1="Hello" + person + "!how are you today?";
+				var person=prompt("enter your name", " ");
+				var person1="Hello" +" " + person + "! How are you today?";
 				if(person!=null)
 				{
 					document.getElementById("hei").innerHTML=person1;
@@ -31,16 +31,20 @@
 		<div class="row">
 				<div class ="col-md-3">
 				</div>
-			<div class ="col-md-2">
-			<img src="img\a.jpg">
+			<div class ="col-md-2" >
+				<div class="pic">
+					<img src="img\a.jpg">
+				</div>
 			</div>
 		<div class ="col-md-4">
 		<br />
 		<br />
-	<div class ="change" id="hei"></div><div id="hide"><h1> Tejasvi Gupta </h1>
-	<h3> Web Developer and Designer </h3> 
-	 <button class ="btn btn-primary" id="button1" onclick ="myfunction()"> </center> welcome </button>
+	<div style="margin-left: 10%;">
+		<div class ="change" id="hei"></div><div id="hide"><h1> Tejasvi Gupta </h1>
+			<h3> Web Developer and Designer </h3> 
+			<button class ="btn btn-primary" id="button1" onclick ="myfunction()"> Click Me ! 😁 </button>
 		</div></div>
+	</div>
 			<div class ="col-md-3">
 			</div>
 		</div>
@@ -57,7 +61,7 @@
 	<div class ="myskills" id ="my"> 			<!-- my skills part -->
 	<div class ="parallax">
 		<center> 
-				<h1> MY SKILLS </h1>
+				<h1 class="boxheaders"> MY SKILLS </h1>
 				<br />
 				<h2> ALL I KNOW </h2>
 		</center>
@@ -91,7 +95,7 @@
 	<div class ="soc2">
 	<div class ="soc" id ="links">				<!-- social links part -->
 		<center>
-				<h1> SOCIAL LINKS </h1>
+				<h1 class="boxheaders"> SOCIAL LINKS </h1>
 				<h3> Here I Am </h3>
 		<br />
 		<a href ="https://www.facebook.com" target ="_blank"> Facebook </a>
@@ -105,7 +109,7 @@
 	<br />
 		<div class ="myq" id ="q">					<!-- my qualifications part -->
 		<center>
-				<h1> My Qualifications </h1>
+				<h1 class="boxheaders"> My Qualifications </h1>
 				<h3> How Qualified I am </h3>
 				<br />
 				<table border ="1" id="tab">
@@ -141,7 +145,7 @@
 	<div class ="pr1">
 	<div class ="pr2">
 	<div class="projects" id="p">
-		<h1> My Designs </h1>
+		<h1 class="boxheaders"> My Designs </h1>
 					<div class="col-sm-3">
 			<button type ="button" class ="btn btn-primary"> <a href ="img\book cover back.jpg" target ="_blank"> <img src ="C:\Users\hanu pc\Desktop\webd\img\book cover back.jpg" height ="150px" width ="150px">  </a> </img>
 					</div>
